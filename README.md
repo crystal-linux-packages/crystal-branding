@@ -1,1 +1,1 @@
-# crystal-branding
+# PKGBUILD for crystal-linux/branding
