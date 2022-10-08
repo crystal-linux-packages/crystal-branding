@@ -1,0 +1,9 @@
+post_install() {
+	mv -f etc/os-release_crystal etc/os-release
+	mv -f etc/issue_crystal etc/issue
+}
+
+post_upgrade() {
+	mv -f etc/os-release_crystal etc/os-release
+        mv -f etc/issue_crystal etc/issue
+}
