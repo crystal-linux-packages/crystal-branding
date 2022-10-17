@@ -25,7 +25,7 @@ package () {
     cd "${srcdir}/${_pkgname}-${pkgver}"
     install -Dm 644 in-system/crystal-os-logo.png "${pkgdir}/usr/share/pixmaps/crystal-os-logo.png"
     install -Dm 644 ../os-release_crystal "${pkgdir}/etc/os-release_crystal"
-    install -Dm 644 ../os-release_crystal "${pkgdir}/usr/lib/os-release/os-release_crystal"
+    install -Dm 644 ../os-release_crystal "${pkgdir}/usr/lib/os-release_crystal"
     install -Dm 644 ../issue_crystal "${pkgdir}/etc/issue_crystal"
     install -Dm 644 ../lsb-release_crystal "${pkgdir}/etc/lsb-release_crystal"
 }
